@@ -358,7 +358,10 @@
           }
         },
         "info": "Ghi hình/Hẹn giờ",
-        "weather": "Thời tiết"
+        "weather": "Thời tiết",
+        "notifications": "Thông báo",
+        "usage": "Mức sử dụng hệ thống",
+        "clock": "Đồng hồ"
       },
       "position": {
         "title": "Vị trí thanh tác vụ",
@@ -496,11 +499,13 @@
           "name": {
             "classic": "Cổ điển",
             "minimal": "Tối giản",
-            "text": "Văn bản"
+            "text": "Văn bản",
+            "button": "Nút bấm"
           },
           "classic": "Dạng viên thuốc với sóng chuyển màu",
           "minimal": "Dạng thỏi iOS/Android có nắp",
-          "text": "Biểu tượng và văn bản không có nền"
+          "text": "Biểu tượng và văn bản không có nền",
+          "button": "Viên thuốc nút bấm tương tác có nền"
         }
       },
       "wifi": {
@@ -784,7 +789,8 @@
         "picker_search": "Tìm ứng dụng...",
         "picker_empty": "Không có ứng dụng phù hợp",
         "picker_apply": "Áp dụng",
-        "picker_cancel": "Hủy"
+        "picker_cancel": "Hủy",
+        "add_app": "Thêm ứng dụng"
       },
       "notify": {
         "title": "Sức khỏe kỹ thuật số",
@@ -794,7 +800,19 @@
       "limit_overlay": {
         "title": "Đã đạt giới hạn hằng ngày",
         "hold": "Nhấn giữ để tiếp tục"
-      }
+      },
+      "day": "Ngày",
+      "week": "Tuần",
+      "screen_time": "Thời gian sử dụng màn hình",
+      "less_than_prev": "Ít hơn hôm trước {time}",
+      "more_than_prev": "Nhiều hơn hôm trước {time}",
+      "same_as_prev": "Tương đương hôm trước",
+      "limit_progress": "{used} trên giới hạn hàng ngày {limit}",
+      "limit_reached": "Đã đạt giới hạn hàng ngày {limit}",
+      "peak_hour": "Giờ cao điểm",
+      "week_total": "Tổng cộng trong tuần",
+      "less": "Ít hơn",
+      "more": "Nhiều hơn"
     },
     "update_available": "Có bản cập nhật mới",
     "osd": {
@@ -940,7 +958,10 @@
         "workspace": "Chỉ không gian làm việc đang hoạt động"
       },
       "window_menu": {
-        "untitled": "Untitled"
+        "untitled": "Chưa có tiêu đề",
+        "new_window": "Cửa sổ mới",
+        "pin": "Ghim vào dock",
+        "unpin": "Bỏ ghim khỏi dock"
       },
       "background": {
         "title": "Vẽ nền phía sau ứng dụng",
@@ -955,7 +976,8 @@
     "search": {
       "placeholder": "Tìm kiếm cài đặt...",
       "prompt": "Nhập để tìm kiếm cài đặt...",
-      "no_results": "Không tìm thấy cài đặt"
+      "no_results": "Không tìm thấy cài đặt",
+      "results": "Kết quả tìm kiếm"
     },
     "screenshot": {
       "ocr": {
@@ -1044,12 +1066,14 @@
       "locked": "Đã khóa",
       "access_denied": "Truy cập bị từ chối",
       "authenticating": "Đang xác thực...",
-      "enter_pin": "Nhập mã PIN"
+      "enter_pin": "Nhập mã PIN",
+      "too_many_attempts": "Quá nhiều lần thử"
     },
     "fingerprint": {
       "ready": "Chạm vào cảm biến",
       "not_recognized": "Không nhận diện được vân tay",
-      "recognized": "Đã nhận diện vân tay"
+      "recognized": "Đã nhận diện vân tay",
+      "blocked": "Đã vô hiệu hóa vân tay"
     },
     "power": {
       "suspend": "Ngủ",
@@ -1252,7 +1276,10 @@
         "copied_body": "Drawing copied to clipboard",
         "failed_title": "Export failed",
         "failed_body": "Could not save drawing"
-      }
+      },
+      "hex": "Mã Hex",
+      "palette": "Bảng màu",
+      "palette_default": "Mặc định"
     },
     "notes": {
       "title": "Ghi chú",
@@ -1546,7 +1573,8 @@
       "stretched": "Stretched",
       "lumen": "Lumen",
       "lyrics": "Lời bài hát",
-      "simpleLyrics": "Lời bài hát đơn giản"
+      "simpleLyrics": "Lời bài hát đơn giản",
+      "circle": "Hình tròn"
     },
     "presets": {
       "minimal": {
@@ -1575,7 +1603,11 @@
     },
     "settings": {
       "lyricsLines": "Dòng",
-      "lyricsAlignment": "Căn chỉnh"
+      "lyricsAlignment": "Căn chỉnh",
+      "usageStyle": "Kiểu dáng",
+      "lineThickness": "Độ dày nét vẽ",
+      "visualizerStyle": "Kiểu sóng âm",
+      "showNoLyrics": "Hiện thông báo \"không có lời bài hát\""
     },
     "align": {
       "left": "Trái",
@@ -1584,6 +1616,10 @@
     },
     "notes": {
       "empty": "Chưa có ghi chú"
+    },
+    "style": {
+      "wave": "Dạng sóng",
+      "circle": "Hình tròn"
     }
   },
   "cli": {
@@ -1766,7 +1802,11 @@
       "installing_title": "Đang cài đặt các gói hệ thống và phần phụ thuộc...",
       "installing_pkg": "Đang cài đặt {pkg}...",
       "install_ok": "Đã cài đặt thành công {pkg}",
-      "install_failed": "Cài đặt thất bại {pkg}"
+      "install_failed": "Cài đặt thất bại {pkg}",
+      "enabling_copr": "Đang kích hoạt kho lưu trữ COPR {repo}...",
+      "enabling_terra": "Đang kích hoạt kho lưu trữ Terra...",
+      "quickshell_outdated": "Quickshell {version} đã quá cũ, yêu cầu phiên bản {minimum} trở lên. Đang nâng cấp...",
+      "quickshell_still_old": "Quickshell vẫn cũ hơn {minimum}. Hãy cập nhật thủ công, nếu không cài đặt sẽ không mở được."
     },
     "deploy": {
       "configuring_sddm": "Đang cấu hình trình quản lý hiển thị SDDM...",
@@ -1799,6 +1839,12 @@
     "keep_clipboard_sub": "Nếu tắt — nội dung bộ nhớ tạm ban đầu sẽ được khôi phục sau khi dán"
   },
   "datetime": {
-    "full_date": "dddd, d MMMM"
+    "full_date": "dddd, d MMMM",
+    "just_now": "Vừa xong",
+    "minutes_ago": "{mins} phút trước",
+    "yesterday": "Hôm qua {time}"
+  },
+  "common": {
+    "select": "Chọn..."
   }
 }
