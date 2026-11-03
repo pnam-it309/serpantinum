@@ -1127,6 +1127,9 @@
       },
       "setting": {
         "show_text": "Hiện văn bản"
+      },
+      "category": {
+        "lockscreen": "Màn hình khóa"
       }
     }
   },
@@ -1538,11 +1541,21 @@
     },
     "redactor": {
       "no_widgets_active": "Không có tiện ích nào hoạt động",
-      "click_to_add": "Nhấp vào biểu tượng tiện ích ở thanh công cụ phía dưới để thêm",
+      "click_to_add": "Chọn một danh mục hoặc tìm kiếm ở thanh công cụ phía dưới để thêm tiện ích",
       "done": "Hoàn tất",
       "widget_singular": "tiện ích",
       "widgets_plural": "tiện ích",
-      "widgets_short": "tiện ích"
+      "widgets_short": "tiện ích",
+      "category": {
+        "time": "Thời gian và văn bản",
+        "media": "Đa phương tiện",
+        "system": "Hệ thống",
+        "info": "Thông tin",
+        "other": "Khác"
+      },
+      "search": "Tìm tiện ích",
+      "results": "Kết quả",
+      "no_results": "Không tìm thấy gì"
     },
     "types": {
       "clock": "Đồng hồ",
@@ -1555,7 +1568,8 @@
       "battery": "Pin",
       "github": "Github",
       "time": "Thời gian",
-      "notes": "Ghi chú"
+      "notes": "Ghi chú",
+      "text": "Văn bản"
     },
     "variants": {
       "digital": "Điện tử",
@@ -1609,7 +1623,8 @@
       "usageStyle": "Kiểu dáng",
       "lineThickness": "Độ dày nét vẽ",
       "visualizerStyle": "Kiểu sóng âm",
-      "showNoLyrics": "Hiện thông báo \"không có lời bài hát\""
+      "showNoLyrics": "Hiện thông báo \"không có lời bài hát\"",
+      "textContent": "Văn bản"
     },
     "align": {
       "left": "Trái",
@@ -1622,6 +1637,9 @@
     "style": {
       "wave": "Dạng sóng",
       "circle": "Hình tròn"
+    },
+    "text": {
+      "placeholder": "Nhập văn bản"
     }
   },
   "cli": {

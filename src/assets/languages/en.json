@@ -1127,6 +1127,9 @@
       },
       "setting": {
         "show_text": "Show text"
+      },
+      "category": {
+        "lockscreen": "Lock screen"
       }
     }
   },
@@ -1538,11 +1541,21 @@
     },
     "redactor": {
       "no_widgets_active": "No widgets active",
-      "click_to_add": "Click a widget icon in the bottom toolbar to add it",
+      "click_to_add": "Pick a category or search in the bottom toolbar to add a widget",
       "done": "Done",
       "widget_singular": "widget",
       "widgets_plural": "widgets",
-      "widgets_short": "w"
+      "widgets_short": "w",
+      "category": {
+        "time": "Time and text",
+        "media": "Media",
+        "system": "System",
+        "info": "Info",
+        "other": "Other"
+      },
+      "search": "Search widgets",
+      "results": "Results",
+      "no_results": "Nothing found"
     },
     "types": {
       "clock": "Clock",
@@ -1555,7 +1568,8 @@
       "battery": "Battery",
       "github": "Github",
       "time": "Time",
-      "notes": "Notes"
+      "notes": "Notes",
+      "text": "Text"
     },
     "variants": {
       "digital": "Digital",
@@ -1606,7 +1620,8 @@
       "usageStyle": "Style",
       "lineThickness": "Thickness",
       "visualizerStyle": "Visualizer style",
-      "showNoLyrics": "Show \"no lyrics\" text"
+      "showNoLyrics": "Show \"no lyrics\" text",
+      "textContent": "Text"
     },
     "align": {
       "left": "Left",
@@ -1619,6 +1634,9 @@
     },
     "notes": {
       "empty": "No notes yet"
+    },
+    "text": {
+      "placeholder": "Enter text"
     }
   },
   "cli": {
